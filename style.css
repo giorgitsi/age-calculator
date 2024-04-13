@@ -1,0 +1,98 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(0, 0%, 94%);
+    font-family: "Poppins", sans-serif;
+}
+
+/* - Purple: hsl(259, 100%, 65%)
+- Light red: hsl(0, 100%, 67%)
+
+### Neutral
+
+- White: hsl(0, 0%, 100%)
+- Off white: hsl(0, 0%, 94%)
+- Light grey: hsl(0, 0%, 86%)
+- Smokey grey: hsl(0, 1%, 44%)
+- Off black: hsl(0, 0%, 8%) */
+
+.container{
+    padding: 30px;
+    width: 600px;
+    background-color: hsl(0, 0%, 100%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 100px;
+}
+
+.input-container{
+    display: flex;
+    gap: 30px;
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.input-container input{
+    width: 100px;
+    height: 40px;
+    border-radius: 6px;
+    border: 1px solid hsl(0, 0%, 86%);
+    font-weight: 900;
+    font-size: 20px;
+    padding: 13px;
+}
+
+.input-container label{
+    opacity: 0.5;
+    letter-spacing:2px;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.input-container input:hover{
+    width: 100px;
+    height: 40px;
+    border-radius: 6px;
+    border: 1px solid hsl(259, 100%, 65%);
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.image-box{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.img-arrow{
+    padding: 10px;
+    background-color: black;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.line{
+    border-bottom: 1px solid hsl(0, 0%, 86%);
+    width: 100%;
+}
+
+.h2-container h2{
+    font-size: 80px;
+}
+
+.h2-container span{
+    color: hsl(259, 100%, 65%);
+}
